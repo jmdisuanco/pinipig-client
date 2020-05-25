@@ -1,11 +1,15 @@
 {
   "name": "pinipig-client",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Pinipig client",
   "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "pub:patch": "npm version patch && npm publish",
+    "pub:minor": "npm version minor && npm publish",
+    "pub:major": "npm version major && npm publish",
+    "postpublish": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
