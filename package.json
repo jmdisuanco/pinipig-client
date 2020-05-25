@@ -1,6 +1,6 @@
 {
   "name": "pinipig-client",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Pinipig client",
   "main": "./dist/main.js",
   "scripts": {
