@@ -1,0 +1,32 @@
+{
+  "name": "pinipig-client",
+  "version": "1.0.0",
+  "description": "Pinipig client",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmdisuanco/pinipig-client.git"
+  },
+  "keywords": [
+    "pinipig",
+    "client",
+    "browser",
+    "pinipigjs"
+  ],
+  "author": "John Martin R. Disuanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmdisuanco/pinipig-client/issues"
+  },
+  "homepage": "https://github.com/jmdisuanco/pinipig-client#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
